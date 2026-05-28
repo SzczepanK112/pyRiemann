@@ -268,11 +268,11 @@ plt.tight_layout()
 # 3D Manifold Visualization
 # --------------------------
 #
-# This figure shows an example of how Riemannian geometry can help us with 
+# This figure shows an example of how Riemannian geometry can help us with
 # understanding Language Models: "love" and "hate" sentences trace different
 # geometric structures. Love tokens lie on a positively curved sphere
-# (K > 0) with geodesic arcs, while hate tokens lie on a flat plane (K = 0) 
-# with straight trajectories. This curvature difference—captured by local 
+# (K > 0) with geodesic arcs, while hate tokens lie on a flat plane (K = 0)
+# with straight trajectories. This curvature difference—captured by local
 # metric tensors enables MDM classification, thanks to treating LLMs latent
 # space as a Riemannian Manifold we can extract many geometric features that
 # may be benefitial in understanding and classification of sentences produced
