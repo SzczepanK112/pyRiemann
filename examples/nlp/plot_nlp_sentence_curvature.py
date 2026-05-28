@@ -166,7 +166,7 @@ x_global = np.vstack(x_list)
 # The pipeline standardises embeddings, extracts neighbourhood tangent patches,
 # estimates a local metric tensor (SPD matrix) per token with Covariances,
 # aggregates token tensors into one SPD matrix per sentence via the Riemannian
-# mean (SentenceAggregator), and classifies with MDM [2]_.
+# mean (SentenceAggregator), and classifies with MDM
 
 pipeline = make_pipeline(
     StandardScaler(),
